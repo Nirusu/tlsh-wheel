@@ -20,7 +20,7 @@ This script *might* work under macOS, BSD and other UNIX operating systems, as l
 
 This script will not work under Windows, as I haven't found an easy way to build the tlsh C module (the .dll) because the project files in the original repo only made for Visual Studio 2005 and 2008, which require you to install the whole suite just to have the build tools for them in it. 
 
-Now, maybe I missed something here, but if you have found a way to *easily* (e.g. jus) build the module for Windows via `msbuild` or something similar, please provide a PR and I will intergrate your changes with much appreciation.
+Now, maybe I missed something here, but if you have found a way to *easily* (e.g. just call `msbuild` and get a successfully built module) build the module for Windows via `msbuild` or something similar, please provide a PR and I will intergrate your changes with much appreciation.
 
 ## Publishing on PyPi?
 As I don't want to push low-quality packages such as the one online right now, I only want to do this if we also have Windows support in it. But if you're up to, feel free to do it. Just please make a package which actually works :/
